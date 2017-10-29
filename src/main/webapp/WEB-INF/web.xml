@@ -6,6 +6,11 @@
 
     <display-name>SimpleJ2EEProject</display-name>
 
+	<welcome-file-list>
+		<welcome-file>MyServlet</welcome-file>
+	</welcome-file-list>
+
+
     <listener>
         <listener-class>
             com.teaminternational.web.ContextListener

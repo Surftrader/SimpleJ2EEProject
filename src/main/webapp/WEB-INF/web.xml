@@ -11,5 +11,14 @@
             com.teaminternational.web.ContextListener
         </listener-class>
     </listener>
+    
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.teaminternational.web.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 
 </web-app>

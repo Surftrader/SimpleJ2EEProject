@@ -6,19 +6,15 @@
 
     <display-name>SimpleJ2EEProject</display-name>
 
+	<welcome-file-list>
+		<welcome-file>MyServlet</welcome-file>
+	</welcome-file-list>
+
+
     <listener>
         <listener-class>
             com.teaminternational.web.ContextListener
         </listener-class>
     </listener>
-    
-    <servlet>
-        <servlet-name>MyServlet</servlet-name>
-        <servlet-class>com.teaminternational.web.MyServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>MyServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
 
 </web-app>
